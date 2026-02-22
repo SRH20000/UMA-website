@@ -5,21 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>UMA Yatırım Firması | İstanbul</title>
   <style>
-    body {margin:0; font-family:Arial, sans-serif; background:#fff; color:#222;}
+    body {margin:0; font-family:'Segoe UI', Arial, sans-serif; background:#fff; color:#222;}
     header {background:linear-gradient(135deg,#0a2a57,#0e3b6c); color:white; padding:60px 20px; text-align:center;}
-    header h1 {margin:0; font-size:2.5em; letter-spacing:1px;}
-    header p {font-size:1.2em; color:#d9c36c;}
+    header h1 {margin:0; font-size:2.7em; letter-spacing:1px;}
+    header p {font-size:1.1em; color:#d9c36c; margin-top:10px;}
 
-    nav {background:#f9f9f9; text-align:center; padding:10px;}
-    nav a {color:#0e3b6c; text-decoration:none; margin:0 15px; font-weight:bold;}
-    nav a:hover {color:#b6932e;}
+    nav {background:#f0f0f0; display:flex; justify-content:center; flex-wrap:wrap; padding:12px 0;}
+    nav a {
+      color:#0e3b6c;
+      text-decoration:none;
+      margin:8px 15px;
+      padding:8px 16px;
+      font-weight:bold;
+      border-radius:20px;
+      transition:0.3s;
+    }
+    nav a:hover {background:#0e3b6c; color:#fff;}
 
-    section {padding:60px 20px; max-width:900px; margin:auto;}
-    h2 {color:#0e3b6c; margin-bottom:15px;}
+    section {padding:60px 20px; max-width:950px; margin:auto; line-height:1.7;}
+    h2 {color:#0e3b6c; margin-bottom:15px; border-left:5px solid #b6932e; padding-left:10px;}
     .highlight {color:#b6932e;}
 
     .sectors {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px;}
-    .sector-box {border:1px solid #eee; padding:20px; border-radius:8px; background:#fdfdfd;}
+    .sector-box {border:1px solid #eee; padding:25px; border-radius:10px; background:#fdfdfd; box-shadow:0 2px 5px rgba(0,0,0,0.05);}
     .sector-box h3 {color:#0e3b6c;}
 
     form {display:flex; flex-direction:column; max-width:500px; margin:auto;}
@@ -27,7 +35,9 @@
     input, textarea {padding:10px; border:1px solid #ccc; border-radius:4px;}
     button {margin-top:15px; background:#0e3b6c; color:white; padding:10px; border:none; border-radius:4px; cursor:pointer;}
     button:hover {background:#b6932e;}
-    footer {background:#0e3b6c; color:white; text-align:center; padding:20px; margin-top:40px;}
+    footer {background:#0e3b6c; color:white; text-align:center; padding:25px; margin-top:40px; font-size:0.9em;}
+    footer a {color:#d9c36c; text-decoration:none;}
+    footer a:hover {text-decoration:underline;}
   </style>
 </head>
 <body>
@@ -40,15 +50,24 @@
 <nav>
   <a href="#hakkimizda">Hakkımızda</a>
   <a href="#sektorler">Sektörler</a>
+  <a href="#dagitim">Dağıtım & Yatırım</a>
   <a href="#iletisim">İletişim</a>
 </nav>
 
 <section id="hakkimizda">
   <h2>Hakkımızda</h2>
   <p>
-    UMA, merkezi İstanbul’da bulunan bir yatırım firmasıdır. 
-    <strong>Petrol, otomotiv ve gayrimenkul</strong> alanlarında faaliyet göstermekteyiz.  
-    Amacımız, Türkiye ve Körfez bölgesinde uzun vadeli değer yaratan stratejik yatırım fırsatlarını belirleyip geliştirmektir.
+    <strong>UMA Yatırım Firması</strong>, merkezi İstanbul’da bulunan ve <strong>petrol, otomotiv ve gayrimenkul</strong> alanlarında faaliyet gösteren bir yatırım şirketidir.
+    Türkiye, Birleşik Arap Emirlikleri (BAE) ve Avrupa Birliği pazarlarında aktif yatırımlar yürütmekteyiz.
+  </p>
+  <p>
+    Şirketimiz, güvenilir ortaklıklar ve sağlam ticari ilişkiler kurarak uluslararası yatırım ortamında sürdürülebilir büyüme hedeflemektedir.
+  </p>
+  <p>
+    <strong>Yönetim Kurulu Başkanı & CEO:</strong> 
+    <a href="https://www.linkedin.com/in/umut-aslan-a1687539a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">
+      Umut Aslan (LinkedIn Profili)
+    </a>
   </p>
 </section>
 
@@ -57,17 +76,30 @@
   <div class="sectors">
     <div class="sector-box">
       <h3>Petrol Yatırımları</h3>
-      <p>Türkiye’nin enerji ağını güçlendirmek için ithalat, dağıtım ve stratejik enerji ortaklıklarına odaklanıyoruz.</p>
+      <p>Enerji sektöründe ithalat, dağıtım ve stratejik ortaklıklar kurarak bölgesel enerji ağlarını güçlendiriyoruz.</p>
     </div>
     <div class="sector-box">
       <h3>Otomotiv Girişimleri</h3>
-      <p>Ticaret, lojistik ve performans araç yatırımlarıyla, küresel otomotiv piyasasını bölgesel taleple buluşturuyoruz.</p>
+      <p>Türkiye ve BAE merkezli otomotiv ticareti, lojistik ve performans araç yatırımlarıyla küresel pazara erişim sağlıyoruz.</p>
     </div>
     <div class="sector-box">
       <h3>Gayrimenkul</h3>
-      <p>İstanbul ve Türkiye’nin önde gelen şehirlerinde yüksek değerli ticari ve konut projeleri geliştiriyor ve satın alıyoruz.</p>
+      <p>İstanbul, Dubai ve Avrupa’da ticari ve konut projeleri geliştirerek yüksek değerli varlıklar oluşturuyoruz.</p>
     </div>
   </div>
+</section>
+
+<section id="dagitim">
+  <h2>Dağıtım ve Yatırım Hazırlığı</h2>
+  <p>
+    UMA, yatırımcıları için tam ölçekli bir <strong>yatırım hazırlık altyapısına</strong> sahiptir. 
+    Türkiye, BAE ve Avrupa Birliği pazarlarında <strong>dağıtım, yatırım yönetimi ve ortak proje geliştirme</strong> alanlarında aktif faaliyet göstermekteyiz.
+  </p>
+  <p>
+    Şirketimiz, enerji ve otomotiv ürünlerinde bölgesel dağıtım ağlarını genişletmekte; gayrimenkul projelerinde ise yatırımcı dostu çözümler sunmaktadır.
+    <br><br>
+    Her proje, uluslararası standartlara uygun finansal analiz, risk yönetimi ve sürdürülebilir büyüme planlarıyla desteklenmektedir.
+  </p>
 </section>
 
 <section id="iletisim">
@@ -85,7 +117,7 @@
 </section>
 
 <footer>
-  <p>© 2026 UMA Yatırım Firması — İstanbul, Türkiye</p>
+  <p>© 2026 UMA Yatırım Firması — İstanbul, Türkiye | <a href="https://www.linkedin.com/in/umut-aslan-a1687539a?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn: Umut Aslan</a></p>
 </footer>
 
 </body>
